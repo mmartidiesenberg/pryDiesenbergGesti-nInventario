@@ -135,7 +135,7 @@
             // btnModificar
             // 
             btnModificar.AutoSize = true;
-            btnModificar.Location = new Point(496, 133);
+            btnModificar.Location = new Point(496, 126);
             btnModificar.Margin = new Padding(4);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(172, 23);
@@ -148,7 +148,7 @@
             // btnEliminar
             // 
             btnEliminar.AutoSize = true;
-            btnEliminar.Location = new Point(496, 205);
+            btnEliminar.Location = new Point(496, 195);
             btnEliminar.Margin = new Padding(4);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(164, 23);
