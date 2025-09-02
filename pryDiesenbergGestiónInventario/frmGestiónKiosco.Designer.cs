@@ -49,7 +49,7 @@
             lblNombre.Location = new Point(35, 54);
             lblNombre.Margin = new Padding(4, 0, 4, 0);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(167, 19);
+            lblNombre.Size = new Size(332, 37);
             lblNombre.TabIndex = 0;
             lblNombre.Text = "Nombre del Producto";
             // 
@@ -59,7 +59,7 @@
             lblCodProd.Location = new Point(35, 111);
             lblCodProd.Margin = new Padding(4, 0, 4, 0);
             lblCodProd.Name = "lblCodProd";
-            lblCodProd.Size = new Size(159, 19);
+            lblCodProd.Size = new Size(313, 37);
             lblCodProd.TabIndex = 1;
             lblCodProd.Text = "Código del Producto";
             // 
@@ -69,7 +69,7 @@
             lblStock.Location = new Point(35, 170);
             lblStock.Margin = new Padding(4, 0, 4, 0);
             lblStock.Name = "lblStock";
-            lblStock.Size = new Size(49, 19);
+            lblStock.Size = new Size(97, 37);
             lblStock.TabIndex = 2;
             lblStock.Text = "Stock";
             // 
@@ -79,53 +79,53 @@
             lblPrecio.Location = new Point(35, 225);
             lblPrecio.Margin = new Padding(4, 0, 4, 0);
             lblPrecio.Name = "lblPrecio";
-            lblPrecio.Size = new Size(56, 19);
+            lblPrecio.Size = new Size(112, 37);
             lblPrecio.TabIndex = 3;
             lblPrecio.Text = "Precio";
             // 
             // txtNombre
             // 
             txtNombre.BackColor = Color.FromArgb(192, 192, 255);
-            txtNombre.Location = new Point(246, 45);
+            txtNombre.Location = new Point(375, 42);
             txtNombre.Margin = new Padding(4);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(127, 26);
+            txtNombre.Size = new Size(127, 45);
             txtNombre.TabIndex = 4;
             // 
             // txtCodProd
             // 
             txtCodProd.BackColor = Color.FromArgb(192, 192, 255);
-            txtCodProd.Location = new Point(246, 107);
+            txtCodProd.Location = new Point(375, 95);
             txtCodProd.Margin = new Padding(4);
             txtCodProd.Name = "txtCodProd";
-            txtCodProd.Size = new Size(127, 26);
+            txtCodProd.Size = new Size(127, 45);
             txtCodProd.TabIndex = 5;
             // 
             // txtStock
             // 
             txtStock.BackColor = Color.FromArgb(192, 192, 255);
-            txtStock.Location = new Point(246, 166);
+            txtStock.Location = new Point(375, 148);
             txtStock.Margin = new Padding(4);
             txtStock.Name = "txtStock";
-            txtStock.Size = new Size(127, 26);
+            txtStock.Size = new Size(127, 45);
             txtStock.TabIndex = 6;
             // 
             // txtPrecio
             // 
             txtPrecio.BackColor = Color.FromArgb(192, 192, 255);
-            txtPrecio.Location = new Point(246, 221);
+            txtPrecio.Location = new Point(375, 201);
             txtPrecio.Margin = new Padding(4);
             txtPrecio.Name = "txtPrecio";
-            txtPrecio.Size = new Size(127, 26);
+            txtPrecio.Size = new Size(127, 45);
             txtPrecio.TabIndex = 7;
             // 
             // btnAgregar
             // 
             btnAgregar.AutoSize = true;
-            btnAgregar.Location = new Point(496, 54);
+            btnAgregar.Location = new Point(538, 46);
             btnAgregar.Margin = new Padding(4);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(157, 23);
+            btnAgregar.Size = new Size(310, 41);
             btnAgregar.TabIndex = 8;
             btnAgregar.TabStop = true;
             btnAgregar.Text = "Agregar Producto";
@@ -135,10 +135,10 @@
             // btnModificar
             // 
             btnModificar.AutoSize = true;
-            btnModificar.Location = new Point(496, 126);
+            btnModificar.Location = new Point(538, 114);
             btnModificar.Margin = new Padding(4);
             btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(172, 23);
+            btnModificar.Size = new Size(332, 41);
             btnModificar.TabIndex = 9;
             btnModificar.TabStop = true;
             btnModificar.Text = "Modificar Producto";
@@ -148,10 +148,10 @@
             // btnEliminar
             // 
             btnEliminar.AutoSize = true;
-            btnEliminar.Location = new Point(496, 195);
+            btnEliminar.Location = new Point(538, 187);
             btnEliminar.Margin = new Padding(4);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(164, 23);
+            btnEliminar.Size = new Size(318, 41);
             btnEliminar.TabIndex = 10;
             btnEliminar.TabStop = true;
             btnEliminar.Text = "Eliminar Producto";
@@ -163,7 +163,7 @@
             btnAceptar.Location = new Point(176, 343);
             btnAceptar.Margin = new Padding(4);
             btnAceptar.Name = "btnAceptar";
-            btnAceptar.Size = new Size(96, 29);
+            btnAceptar.Size = new Size(172, 61);
             btnAceptar.TabIndex = 11;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@
             btnCancelar.Location = new Point(418, 343);
             btnCancelar.Margin = new Padding(4);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(96, 29);
+            btnCancelar.Size = new Size(163, 61);
             btnCancelar.TabIndex = 12;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -182,10 +182,10 @@
             // 
             // frmGestión
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(19F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(128, 128, 255);
-            ClientSize = new Size(739, 462);
+            ClientSize = new Size(886, 467);
             Controls.Add(btnCancelar);
             Controls.Add(btnAceptar);
             Controls.Add(btnEliminar);
