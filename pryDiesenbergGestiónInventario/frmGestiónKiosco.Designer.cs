@@ -207,6 +207,7 @@
             Name = "frmGestión";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Inventario Kiosco";
+            Load += frmGestión_Load;
             ResumeLayout(false);
             PerformLayout();
         }
