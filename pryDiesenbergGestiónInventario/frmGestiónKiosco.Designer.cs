@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestión));
             lblNombre = new Label();
             lblCodProd = new Label();
             lblStock = new Label();
@@ -90,7 +91,7 @@
             txtNombre.Margin = new Padding(4);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(127, 45);
-            txtNombre.TabIndex = 4;
+            txtNombre.TabIndex = 1;
             // 
             // txtCodProd
             // 
@@ -99,7 +100,7 @@
             txtCodProd.Margin = new Padding(4);
             txtCodProd.Name = "txtCodProd";
             txtCodProd.Size = new Size(127, 45);
-            txtCodProd.TabIndex = 5;
+            txtCodProd.TabIndex = 2;
             // 
             // txtStock
             // 
@@ -108,7 +109,7 @@
             txtStock.Margin = new Padding(4);
             txtStock.Name = "txtStock";
             txtStock.Size = new Size(127, 45);
-            txtStock.TabIndex = 6;
+            txtStock.TabIndex = 3;
             // 
             // txtPrecio
             // 
@@ -117,7 +118,7 @@
             txtPrecio.Margin = new Padding(4);
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(127, 45);
-            txtPrecio.TabIndex = 7;
+            txtPrecio.TabIndex = 4;
             // 
             // btnAgregar
             // 
@@ -126,7 +127,7 @@
             btnAgregar.Margin = new Padding(4);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(310, 41);
-            btnAgregar.TabIndex = 8;
+            btnAgregar.TabIndex = 5;
             btnAgregar.TabStop = true;
             btnAgregar.Text = "Agregar Producto";
             btnAgregar.UseVisualStyleBackColor = true;
@@ -139,7 +140,7 @@
             btnModificar.Margin = new Padding(4);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(332, 41);
-            btnModificar.TabIndex = 9;
+            btnModificar.TabIndex = 6;
             btnModificar.TabStop = true;
             btnModificar.Text = "Modificar Producto";
             btnModificar.UseVisualStyleBackColor = true;
@@ -152,7 +153,7 @@
             btnEliminar.Margin = new Padding(4);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(318, 41);
-            btnEliminar.TabIndex = 10;
+            btnEliminar.TabIndex = 7;
             btnEliminar.TabStop = true;
             btnEliminar.Text = "Eliminar Producto";
             btnEliminar.UseVisualStyleBackColor = true;
@@ -164,7 +165,7 @@
             btnAceptar.Margin = new Padding(4);
             btnAceptar.Name = "btnAceptar";
             btnAceptar.Size = new Size(172, 61);
-            btnAceptar.TabIndex = 11;
+            btnAceptar.TabIndex = 8;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
             btnAceptar.Click += btnAceptar_Click;
@@ -175,7 +176,7 @@
             btnCancelar.Margin = new Padding(4);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(163, 61);
-            btnCancelar.TabIndex = 12;
+            btnCancelar.TabIndex = 9;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
             btnCancelar.Click += btnCancelar_Click;
@@ -200,8 +201,11 @@
             Controls.Add(lblCodProd);
             Controls.Add(lblNombre);
             Font = new Font("Cambria", 12F, FontStyle.Bold);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4);
             Name = "frmGestión";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Inventario Kiosco";
             ResumeLayout(false);
             PerformLayout();
